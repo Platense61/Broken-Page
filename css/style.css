@@ -39,6 +39,9 @@ header {
   width: 510px;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin: 0 auto;
+  display: block;
+
 }
 header img {
   width: 100%;
