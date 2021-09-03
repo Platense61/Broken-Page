@@ -70,6 +70,9 @@ article {
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
 }
 article figcaption {
 }
@@ -77,6 +80,8 @@ article figcaption {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  justify-content: space-around;
+  display: flex;
 }
 a.button {
   border: 1px solid #888;
