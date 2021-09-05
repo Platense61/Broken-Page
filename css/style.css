@@ -83,6 +83,15 @@ article figcaption {
   justify-content: space-around;
   display: flex;
 }
+
+.dropcap{
+  float: left;
+  line-height: 80%;
+  width: .7em;
+  font-size: 320%;
+  font-family: georgia;
+}
+
 a.button {
   border: 1px solid #888;
   padding: .4em 1em .4em 1em;
