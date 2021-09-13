@@ -109,24 +109,14 @@ a.button {
   font-weight: 300;
   font-size: 80%;
 }
-/*
+
 a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
   color: black;
-}*/
-a.button{
-  box-shadow:
-    0.3em 0.3em 0 0 var(--color),
-    inset 0.3em 0.3em 0 0 var(--color);
-
-  &:hover,
-  &:focus {
-    box-shadow:
-      0 0 0 0 var(--hover),
-      inset 6em 3.5em 0 0 var(--hover);
-  }
+  background-color: #F04306;
 }
+
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
   header {width: 96%;}
